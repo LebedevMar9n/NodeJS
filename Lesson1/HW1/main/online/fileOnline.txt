@@ -1,0 +1,9 @@
+name: Oleg
+age: 23
+city: Rivne
+name: Sasha
+age: 45
+city: Lutsk
+name: Marta
+age: 55
+city: Kharkiv

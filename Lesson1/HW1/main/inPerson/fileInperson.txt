@@ -1,0 +1,9 @@
+name: Andrii
+age: 22
+city: Lviv
+name: Bogdan
+age: 32
+city: Kyiv
+name: Roman
+age: 28
+city: Odesa
