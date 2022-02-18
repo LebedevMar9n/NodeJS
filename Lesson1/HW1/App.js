@@ -4,9 +4,8 @@
 // -створити файли txt в папках (online, inPerson) в яких як дату покласти юзерів з ваших масивів,
 // але щоб ваш файл виглядав як NAME: ім'я з обєкту і т.д і всі пункти з нового рядка.
 // -напишіть функцію яка буде міняти місцями юзерів з одного файлу і папки в іншу.
-
-const path = require('path');
-const fs = require('fs');
+const path=require('path')
+const fs=require('fs')
 
 const onlineUsers = [
     {name: "Andrii", age: 22, city: "Lviv"},
@@ -48,7 +47,7 @@ fs.mkdir(path.join(__dirname, 'main'), (err) => {
                 throw err;
             }
         });
-    })
+    });
     fs.mkdir(path.join(__dirname, 'main', 'inPerson'), (err) => {
         if (err) {
             console.log(err);
@@ -61,7 +60,7 @@ fs.mkdir(path.join(__dirname, 'main'), (err) => {
             }
         })
     })
-})
+});
 
 // const swapData = (pathFrom, pathTo) => {
 //     fs.readFile(pathFrom, "utf-8", ((err, data) => {
